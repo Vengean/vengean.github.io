@@ -1,67 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vengean's personal blog">
-    <meta name="author" content="vengean.liu">
-    <!--<link rel="icon" href="../../favicon.ico">-->
+    <title></title>
 
-    <title>Vengean's Blog</title>
-
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/homepage.css">
     <link href="vendor/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
     <link href="static/css/theme.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script src="vendor/modernizr/modernizr.custom.min.js"></script>
 </head>
+<body class="home">
+<div class="home__container">
 
-<body>
-
-<div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-            <div class="masthead clearfix">
-                <div class="inner">
-                    <h3 class="masthead-brand">Library</h3>
-                    <nav>
-                        <ul class="nav masthead-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact-us.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="inner cover">
-                <h1 class="cover-heading">while(!(succeed==try()));</h1>
-
-                <p class="lead">
-                    I've found that web design is an interesting work. Before I was a Java engineer, I fall in love with frontend project
-                    in two years ago. There are a lot of fun in this artistic and logical world. To make our world more beautiful and try
-                    it until you succeed.
-                </p>
-
-                <p class="lead">
-                    <a href="contact-us.html" class="btn btn-lg btn-default">Join us</a>
-                </p>
-            </div>
-
-            <div class="mastfoot">
-                <div class="inner">
-                    <p>Our home <a href="http://vengean.github.io">Library</a>, by <a
-                            href="http://weibo.com/helloworld1010">@McAlsace</a>.</p>
-                </div>
-            </div>
-
+    <div class="masthead clearfix">
+        <div class="inner-padding">
+            <h3 class="masthead-brand">小木屋</h3>
+            <nav>
+                <ul class="nav masthead-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="about.html">文章</a></li>
+                    <li><a href="contact-us.html">每日一练</a></li>
+                    <li><a href="about.html">履历</a></li>
+                </ul>
+            </nav>
         </div>
-
     </div>
 
+    <div class="cover">
+        <h1 class="cover-heading">唯爱与梦想不可辜负</h1>
+
+        <p class="lead cursive">
+            while(!(succeed==try()));
+        </p>
+
+        <p class="lead">
+            <a href="contact-us.html" class="btn btn-lg btn-default">关于我</a>
+        </p>
+    </div>
+
+    <div class="home__main">
+        <!-- 卡片墙展示区域 -->
+        <div class="cardWall">
+            <!-- 卡片墙左侧 -->
+            <div class="cardWall-nav cardWall-left">
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:34px;left:30px;opacity:1;visibility:visible;background-color:#66CCFF;z-index:2;"
+                   data-dir="left" data-type="exercise">
+                    <span>练习</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:20px;left:60px;opacity:1;visibility:visible;background-color:#F2D169;z-index:3;"
+                   data-dir="left" data-type="blog">
+                    <span>博客</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:20px;left:130px;opacity:0;visibility:hidden;background-color:#FD989A;z-index:4;"
+                   data-dir="left" data-type="photo">
+                    <span>美图</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:58px;left:-12px;opacity:0;visibility:hidden;background-color:#8c78e0;z-index:1;"
+                   data-dir="left" data-type="framework">
+                    <span>框架</span>
+                </a>
+                <!-- <a href="javascript:;" class="cardWall-nav-item" style="top:58px;left:-12px;opacity:0;visibility:hidden;background-color:#3DCDCB;z-index:1;" data-dir="left" data-type="community">
+                    <i class="icon40 i40-0-3"></i>
+                    <span>圈子</span>
+                </a> -->
+            </div>
+            <!-- 卡片墙中间部分 -->
+            <div class="cardWall-center">
+                <ul class="cardWall__ul">
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                    <li class="cardWall__ul__li"></li>
+                </ul>
+            </div>
+            <!-- 卡片墙右侧 -->
+            <div class="cardWall-nav cardWall-right">
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:34px;left:50px;opacity:1;visibility:visible;background-color:#66CCFF;z-index:2;"
+                   data-dir="right" data-type="exercise">
+                    <span>练习</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:58px;left:92px;opacity:0;visibility:hidden;background-color:#F2D169;z-index:1;"
+                   data-dir="right" data-type="blog">
+                    <span>博客</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:20px;left:-50px;opacity:0;visibility:hidden;background-color:#FD989A;z-index:4;"
+                   data-dir="right" data-type="photo">
+                    <span>美图</span>
+                </a>
+                <a href="javascript:;" class="cardWall-nav-item"
+                   style="top:20px;left:20px;opacity:1;visibility:visible;background-color:#8c78e0;z-index:3;"
+                   data-dir="right" data-type="framework">
+                    <span>框架</span>
+                </a>
+                <!-- <a href="javascript:;" class="cardWall-nav-item" style="top:34px;left:50px;opacity:1;visibility:visible;background-color:#3DCDCB;z-index:2;" data-dir="right" data-type="community">
+                    <i class="icon40 i40-0-3"></i>
+                    <span>圈子</span>
+                </a> -->
+            </div>
+        </div>
+        <a href="javascript:;" class="more">more&nbsp;→</a>
+    </div>
+    <!-- 首页底部 -->
+    <footer class="home__foot">
+        <div class="mastfoot">
+            <div class="inner-padding">
+                <p><a href="http://vengean.github.io">小木屋</a> by <a
+                        href="http://weibo.com/helloworld1010">@McAlsace</a>.</p>
+            </div>
+        </div>
+    </footer>
 </div>
+
+
+<script src="vendor/require/require.min.js"></script>
+
+<script>
+    require.config({
+        paths: {
+            jquery: 'vendor/jquery/jquery-1.10.2.min',
+            juicer: 'vendor/juicer/juicer.min',
+            tool: 'components/tool/tool',
+            event: 'portals/event',
+            homeCards: 'portals/tpl-homeCard',
+            fancyBox: 'vendor/fancybox/jquery.fancybox.pack'
+        },
+        shim: {
+            jquery: {
+                exports: '$'
+            },
+            tool: {
+                deps: ['jquery']
+            },
+            event: {
+                deps: ['tool']
+            },
+            homeCards: {
+                deps: ['jquery']
+            },
+            fancyBox: {
+                deps: ['jquery']
+            }
+
+        }
+    });
+
+    require(['portals/homepage'], function (homepage) {
+        homepage.run();
+    });
+
+</script>
+
 </body>
 </html>
