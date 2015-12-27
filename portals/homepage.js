@@ -2,7 +2,7 @@
  * Created by vengean on 15/11/13.
  */
 
-define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox'], function(globalEvent, _ , homeCards) {
+define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox', 'popdown'], function(globalEvent, _ , homeCards) {
 
 
 	var $cardWall 			= $('.cardWall');
@@ -101,7 +101,11 @@ define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox'], function(globalEven
 						newElems[_index].removeClass(animate[1]);
 						isAllowClick = true;
 					}, 1200);
-				});	
+				});
+
+				//if(type === 'blog') {
+				//	$('.popdown').popdown();
+				//}
 			});
 		},
 
@@ -142,7 +146,7 @@ define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox'], function(globalEven
 
 			$.ajax({
 				type: 'GET',
-				url: 'static/data/framework.json',
+				url: 'static/data/vendor.json',
 				dataType: 'json',
 				success : function(data) {
 					compiled_tpl = juicer(homeCards.framework.tpl);

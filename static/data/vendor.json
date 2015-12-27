@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "static/data/icon/jquery_ico.jpg",
+    "url": "http://jquery.com/",
+    "title": "jQuery",
+    "describe": "锋利的jQuery，只要是做过网站开发的，基本都用过。"
+  },
+  {
+    "icon": "static/data/icon/angularjs_ico.png",
+    "url": "https://docs.angularjs.org/",
+    "title": "AngularJS",
+    "describe": "Google出品，算是比较热门的MVVM框架了，功能强大，很适合做SPA（单页面应用程序）。官网要翻墙..."
+  },
+  {
+         "icon": "static/data/icon/bootstrap_ico.png",
+         "url": "http://v3.bootcss.com/",
+         "title": "Bootstrap",
+         "describe": "想偷懒？必须要会Bootstrap啊！这个算是很火的前端框架了。"
+     },
+  {
+       "icon": "static/data/icon/grunt_ico.png",
+       "url": "http://gruntjs.com/",
+       "title": "Grunt",
+       "describe": "也是比较受欢迎个一个构建工具，有很多插件可以使用。"
+    },
+    {
+       "icon": "static/data/icon/swiper_ico.png",
+       "url": "http://www.idangero.us/swiper/demos/",
+       "title": "Swiper",
+       "describe": "一个支持触屏的前端框架，适合移动端开发的框架，有很多常见的效果。"
+    },
+    {
+        "icon": "static/data/icon/fis_icon.png",
+        "url": "http://fis.baidu.com/fis3/index.html",
+        "title": "FIS",
+        "describe": "一体化的构建工具，该有的都有了，就是官方文档对配置说明并不是很全，而且有些插件根本没文档。"
+      },
+    {
+        "icon": "static/data/icon/requirejs_ico.png",
+        "url": "http://www.requirejs.org/",
+        "title": "RequireJS",
+        "describe": "分而治之是十分好的理念，模块化编程（AMD，你才是蛇皮油）最常用的框架。"
+      }
+]

@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="static/css/common.css">
     <link rel="stylesheet" href="static/css/homepage.css">
     <link href="vendor/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-3.3.5/css/font-awesome.min.css" rel="stylesheet">
     <link href="static/css/theme.css" rel="stylesheet">
+    <link href="vendor/popdown/css/jquery.popdown.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <script src="vendor/modernizr/modernizr.custom.min.js"></script>
 </head>
@@ -23,9 +25,9 @@
             <nav>
                 <ul class="nav masthead-nav">
                     <li class="active"><a href="#">首页</a></li>
-                    <li><a href="about.html">文章</a></li>
-                    <li><a href="contact-us.html">每日一练</a></li>
-                    <li><a href="about.html">履历</a></li>
+                    <li><a href="resume.html">履历</a></li>
+                    <li><a href="https://github.com/Vengean"><span class="icon-github"></span></a></li>
+                    <li><a href="http://www.linkedin.com/profile/view?id=AAMAABvXh3YBRf-caiRsx1ZaM3O1TUiVBpkRp88"><span class="icon-linkedin-sign"></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -39,7 +41,7 @@
         </p>
 
         <p class="lead">
-            <a href="contact-us.html" class="btn btn-lg btn-default">关于我</a>
+            <a href="resume.html" class="btn btn-lg btn-default">关于我</a>
         </p>
     </div>
 
@@ -56,7 +58,7 @@
                 <a href="javascript:;" class="cardWall-nav-item"
                    style="top:20px;left:60px;opacity:1;visibility:visible;background-color:#F2D169;z-index:3;"
                    data-dir="left" data-type="blog">
-                    <span>博客</span>
+                    <span>博文</span>
                 </a>
                 <a href="javascript:;" class="cardWall-nav-item"
                    style="top:20px;left:130px;opacity:0;visibility:hidden;background-color:#FD989A;z-index:4;"
@@ -96,7 +98,7 @@
                 <a href="javascript:;" class="cardWall-nav-item"
                    style="top:58px;left:92px;opacity:0;visibility:hidden;background-color:#F2D169;z-index:1;"
                    data-dir="right" data-type="blog">
-                    <span>博客</span>
+                    <span>博文</span>
                 </a>
                 <a href="javascript:;" class="cardWall-nav-item"
                    style="top:20px;left:-50px;opacity:0;visibility:hidden;background-color:#FD989A;z-index:4;"
@@ -138,7 +140,8 @@
             tool: 'components/tool/tool',
             event: 'portals/event',
             homeCards: 'portals/tpl-homeCard',
-            fancyBox: 'vendor/fancybox/jquery.fancybox.pack'
+            fancyBox: 'vendor/fancybox/jquery.fancybox.pack',
+            popdown: 'vendor/popdown/lib/jquery.popdown.min'
         },
         shim: {
             jquery: {
@@ -154,6 +157,9 @@
                 deps: ['jquery']
             },
             fancyBox: {
+                deps: ['jquery']
+            },
+            popdown: {
                 deps: ['jquery']
             }
 

@@ -1,27 +1,37 @@
 [
   {
-    "id": "b0010",
-    "title": "关于小木屋",
-    "describe": "披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。"
+    "url": "https://github.com/Vengean/Avalon-OniUI-RequireJS-FIS3",
+    "title": "Avalon-OniUI-RequireJS-FIS3",
+    "describe": "这个demo结合FIS3介绍了一些avalon的基本用法，比如双向绑定，模板，路由，使用OniUI以及编写自定义Avalon组件。"
   },
   {
-    "id": "b0010",
-    "title": "关于小木屋",
-    "describe": "披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。"
+    "url": "https://github.com/fouber/blog/issues/10",
+    "title": "前端工程化",
+    "describe": "相信大家都有一种感觉，这两年前端发展迅猛，在这看脸的时代，不仅讲究设计，更是追求极致的用户体验，然而前端工程化才刚刚迈入蒸汽时代，要研发效率赶上这个时代的需求，还有很长一段路要走，推荐这篇文章给大家，这只是一个开始。"
   },
   {
-    "id": "b0010",
-    "title": "关于小木屋",
-    "describe": "披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。"
+    "url": "https://github.com/atian25/blog/issues/5",
+    "title": "AngularJS性能优化心得",
+    "describe": "AngularJS断断续续用了两年多，因为项目组的人能力不一，很多人不注重性能，这篇文章值得一看，自己也有所收获。"
   },
   {
-    "id": "b0010",
-    "title": "关于小木屋",
-    "describe": "披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。"
+    "url": "https://developer.yahoo.com/performance/rules.html",
+    "title": "最佳实践：雅虎教条",
+    "describe": "相信这是每个Web工程师都需要拜读的。"
   },
   {
-    "id": "b0010",
-    "title": "关于小木屋",
-    "describe": "披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。"
+    "url": "https://github.com/xufei/Make-Your-Own-AngularJS/blob/master/01.md",
+    "title": "MVVM为何物？",
+    "describe": "想必很多用过AngularJS的人都觉得双向绑定真实太好用了，其实这只是MVVM框架的特性之一，这篇文章就浅谈了MVVM是怎么实现的，当然，实际的情况要复杂得多，这篇只是给大家讲解思路。"
+  },
+  {
+    "url": "http://mp.weixin.qq.com/s?__biz=MjM5MzMyNzg0MA==&mid=208397151&idx=2&sn=24b41d9aa6171ad18a30b48e2c171fff&scene=2&srcid=0918qC7Ck4N5F0gR3stECN6X&from=timeline&isappinstalled=0#wechat_redirect",
+    "title": "Web性能优化",
+    "describe": "对于Web性能优化，必须承认这是我的短板，要想更上一个台阶，我想这就是我需要提高的地方了。"
+  },
+  {
+    "url": "http://mp.weixin.qq.com/s?__biz=MjM5MzMyNzg0MA==&mid=206655293&idx=2&sn=a7af0724a11c5287f67f1beaeefff926&scene=2&from=timeline&isappinstalled=0#wechat_redirect",
+    "title": "Web响应式设计",
+    "describe": "其实以前在移动互联网部门待了一年，响应式网站不是没做过，但是做得并不理想，尤其是开发速度方面，确实也需要实战经验啊，并且这需要UI设计师和UI工程师都具备响应式设计的能力。"
   }
 ]

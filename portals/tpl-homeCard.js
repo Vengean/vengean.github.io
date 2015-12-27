@@ -18,7 +18,7 @@ define([], function() {
 							'<p>我是摄影爱好者,也喜欢铅笔画和平面设计,这些是我的作品</p>' +
 						 '</div>'),
 
-			tpl: '<a href="${imgUrl}" class="homeCard_B homeCard_init fancybox" target="_blank">' +
+			tpl: '<a href="${imgUrl}" class="homeCard_B homeCard_init fancybox">' +
                 '<div class="image-1"><div class="inner"><img src="${imgUrl}"></div></div>' +
                 '<h2 class="text-1">${title}</h2>' +
                 '<p class="text-2"></p>' +
@@ -29,11 +29,11 @@ define([], function() {
 
 		blog: {
 			firstCard: $('<div class="homeCard_first" style="background-color:#F2D169;">' +
-				'<h1>博客</h1>' +
-				'<p>有空的话写写技术文章,可以温故知新</p>' +
+				'<h1>博文</h1>' +
+				'<p>一些自己写的或是值得推荐一看的博文</p>' +
 				'</div>'),
 
-			tpl: '<a href="portal/person.html?id=${id}" class="homeCard_B homeCard_init" target="_blank">' +
+			tpl: '<a href="${url}" class="homeCard_B homeCard_init" target="_blank">' +
 			'<h2 class="text-1">${title}</h2>' +
 			'<p class="text-2"></p>' +
 			'<p class="text-3">{@if(describe)}${describe}{@else}暂无简介{@/if}</p>' +
@@ -47,7 +47,8 @@ define([], function() {
 				'<p>前端技术发展突飞猛进,要想前端工程化,是离不开框架的</p>' +
 				'</div>'),
 
-			tpl: '<a href="portal/person.html?id=${id}" class="homeCard_B homeCard_init" target="_blank">' +
+			tpl: '<a href="${url}" class="homeCard_B homeCard_init" target="_blank">' +
+			'<div class="image-2"><div class="vendor-img-div"><img src="${icon}" class="vendor-img"></div></div>' +
 			'<h2 class="text-1">${title}</h2>' +
 			'<p class="text-2"></p>' +
 			'<p class="text-3">{@if(describe)}${describe}{@else}暂无简介{@/if}</p>' +
