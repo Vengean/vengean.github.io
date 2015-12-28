@@ -62,7 +62,7 @@ define([], function() {
 				'<p>不积硅步无以至千里,每天学习进步一点点,必有所成</p>' +
 				'</div>'),
 
-			tpl: '<a href="portal/person.html?id=${id}" class="homeCard_B homeCard_init" target="_blank">' +
+			tpl: '<a href="${url}" class="homeCard_B homeCard_init popdown" target="_blank">' +
 			'<h2 class="text-1">${title}</h2>' +
 			'<p class="text-2"></p>' +
 			'<p class="text-3">{@if(describe)}${describe}{@else}暂无简介{@/if}</p>' +

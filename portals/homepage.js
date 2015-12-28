@@ -103,9 +103,9 @@ define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox', 'popdown'], function
 					}, 1200);
 				});
 
-				//if(type === 'blog') {
-				//	$('.popdown').popdown();
-				//}
+				if(type === 'exercise') {
+					$('.popdown').popdown();
+				}
 			});
 		},
 
