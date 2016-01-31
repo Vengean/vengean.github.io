@@ -136,3 +136,83 @@ body {
 .cursive {
     font-family: cursive, sans-serif;
 }
+
+.brand {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.brand:before {
+    content: "VL";
+    color: #ff004e;
+    font-size: 16px;
+    font-family: "HEAVITAS", "Helvetica Rounded", Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    border: 1px solid #ff004e;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: 5s linear infinite;
+    animation-name: rotate-0;
+    animation-delay: 0s;
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+}
+
+.logo:before {
+    content: "";
+    border: 1px solid #ff004e;
+    border-radius: 5px;
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    transform-origin: 50% 50%;
+    transform: rotate(0deg) ;
+    animation: 4s linear infinite;
+    animation-name: rotate-1;
+    animation-delay: .5s;
+}
+
+.logo:after {
+    content: "";
+    border: 1px solid #ff004e;
+    border-radius: 5px;
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    transform-origin: 50% 50%;
+    transform: rotate(0deg) ;
+    animation: 4s linear infinite;
+    animation-name: rotate-2;
+    animation-delay: .6s;
+}
+
+@keyframes rotate-0 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-1 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-2 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}

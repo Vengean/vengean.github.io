@@ -23,7 +23,7 @@ define(['event', 'tool', 'homeCards', 'juicer', 'fancyBox', 'popdown'], function
 		},
 
 		init: function() {
-			globalEvent.hover();
+			//globalEvent.hover();
 			this.eventHandle();
 		}
 		
